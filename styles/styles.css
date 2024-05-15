@@ -1,3 +1,11 @@
+ /*
+    Color scheme for this website:
+ --mint-green: #cdf7f6ff;
+--tickle-me-pink: #f08caeff;
+--jade: #00a676ff;
+--ultra-violet: #63458aff;
+--icterine: #f2f230ff;
+  */
 body {
     font-size: 1em;
 font-weight: normal;
@@ -8,14 +16,14 @@ text-align: left;
 
 h1 { font-size: 1.8em;
 font-weight: bold;
-color: #0000ff;
+color: #9F6BA0;
 text-align: center;
 }
 h2 {
 font-size: 1.6em;
 }
 div {
-background-color: deeppink;
+background-color:#f08caeff;
 }
 p {
 border-bottom: 1px solid pink;
