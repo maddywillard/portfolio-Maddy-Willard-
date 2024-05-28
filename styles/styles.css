@@ -17,7 +17,7 @@ border-width: 5px;
 }
 h1,h2,h3{
   font-family: Verdana, sans-serif;
-  border: 1px dashed black;
+  border: 1px solid black;
 }
 h1 { font-size: 1.8em;
 font-weight: bold;
@@ -34,7 +34,7 @@ padding: 1em;
 p {
 border-bottom: 1px solid pink;
 border-color: purple;border-width: 5px;
-    border-style: dotted;
+    border-style: solid;
 }
 ul {
   background-color: pink;
