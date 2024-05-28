@@ -62,6 +62,7 @@ li{
 main {
   background-color: #cdf7f6ff;
   color: black;
+  clear:left
 }
 a {
   color: black;
@@ -80,3 +81,25 @@ div#skipnav {
     font-size: 1.2em;
     float: left;
       }
+      /* navigation menu styles */ 
+      nav ul {
+        list-style-type: none;
+      }
+      nav ul li {
+        float: left;
+        margin-right: 0.5em;
+      }
+      nav ul li a {
+        padding: 0.25em 1em;
+        text-decoration: none; /* no underline */
+        background-color: #EBF5FF; /* pale bluish white */
+        color: #e982b9; /* dark blue */
+        border: 2px solid black;
+        border-top-left-radius: 1em 1em; /* rounded corner! */
+        border-top-right-radius: 1em 1em; /* another rounded corner! */
+        }
+        nav ul li a:hover, nav ul li a:focus {
+          color: black;
+          background-color: white;
+          font-weight: bold;
+          }
