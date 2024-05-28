@@ -13,7 +13,7 @@ font-family: Arial, Sans-serif;
 color: #000000;
 text-align: left;
 border-width: 5px;
-    border-style: dotted;
+    border-style: solid;
 }
 h1,h2,h3{
   font-family: Verdana, sans-serif;
@@ -36,9 +36,22 @@ border-bottom: 1px solid pink;
 border-color: purple;border-width: 5px;
     border-style: dotted;
 }
-{ul
+ul {
   background-color: pink;
 }
-{li
+li{
   margin: 0;
+}
+#skipnav {
+  width:10em
+}
+.info{
+  width:40%;
+  font-size: 1.2em;
+}
+#overview {
+  font-weight: bold;
+}
+.temp {
+  font-style:italic
 }
