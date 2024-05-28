@@ -13,10 +13,11 @@ font-family: Arial, Sans-serif;
 color: #000000;
 text-align: left;
 }
-
+h1,h2,h3{
+  font-family: Verdana, sans-serif;
+}
 h1 { font-size: 1.8em;
 font-weight: bold;
-font-family: Verdana, sans-serif;
 color: #9F6BA0;
 text-align: center;
 }
