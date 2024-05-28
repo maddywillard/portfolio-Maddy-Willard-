@@ -59,3 +59,11 @@ main {
   background-color: #cdf7f6ff;
   color: black;
 }
+a {
+  color: black;
+  background-color: #cdf7f6ff;
+}
+a:hover, a:focus {
+  color: #cdf7f6ff;
+  background-color: black;
+}
