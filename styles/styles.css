@@ -14,6 +14,8 @@ color: #000000;
 text-align: left;
 border-width: 5px;
     border-style: solid;
+    width: 95%;
+  min-width: 720px;
 }
 h1,h2,h3{
   font-family: Verdana, sans-serif;
@@ -44,10 +46,12 @@ li{
 }
 #skipnav {
   width:10em
+ 
 }
 .info{
   width:40%;
   font-size: 1.2em;
+  
 }
 #overview {
   font-weight: bold;
@@ -67,3 +71,12 @@ a:hover, a:focus {
   color: #cdf7f6ff;
   background-color: black;
 }
+div#skipnav {
+  top: 5px;
+  left: 5px;
+  }
+  div.info {
+    width: 40%;
+    font-size: 1.2em;
+    float: left;
+      }
